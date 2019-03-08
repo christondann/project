@@ -1,0 +1,172 @@
+<html>
+<head>
+<script type="text/javascript" src="validate.js"></script>
+</head>
+<body>
+<form action="#" name="StudentRegistration" onsubmit="return(validate());">
+
+
+<tr>
+<td colspan=2>
+<left><font size=4><b>Registration Form</b></font></left>
+</td>
+</tr>
+
+<table cellpadding="10" width="98%" bgcolor="99FFFF" align="center"
+cellspacing="2">
+
+
+<tr>
+<td>Name</td>
+<td><input type=text name=textnames id="textname" size="30"></td>
+</tr>
+
+<tr>
+<td>Father Name</td>
+<td><input type="text" name="fathername" id="fathername"
+size="30"></td>
+</tr>
+
+
+<tr>
+<td>DOB</td>
+<td><input type="date" name="dob" id="dob" size="30"></td>
+</tr>
+
+
+<tr>
+<td>Postal Address</td>
+<td><input type="text" name="paddress" id="paddress" size="30"></td>
+</tr>
+
+<tr>
+<td>Personal Address</td>
+<td><input type="text" name="personaladdress"
+id="personaladdress" size="30"></td>
+</tr>
+
+
+<tr>
+<td>PinCode</td>
+<td><input type="text" name="pincode" id="pincode" size="30"></td>
+
+</tr>
+
+
+<tr>
+<td>EmailId</td>
+<td><input type="text" name="emailid" id="emailid" size="30"></td>
+</tr>
+
+<tr>
+<td>MobileNo</td>
+<td><input type="text" name="mobileno" id="mobileno" size="30"></td>
+</tr>
+
+
+<tr>
+<td>Country</td>
+<td><select name="Country">
+<option value="-1" selected>select..</option>
+<option value="London">London</option>
+<option value="Pakistan">Pakistan</option>
+<option value="Srilanka">Srilanka</option>
+<option value="USA">USA</option>
+<option value="India">India</option>
+
+</select></td>
+</tr>
+
+
+<tr>
+<td>Sex</td>
+<td><input type="radio" name="sex" value="male" size="10">Male
+<input type="radio" name="sex" value="Female" size="10">Female</td>
+</tr>
+
+<tr>
+<td>Nationality</td>
+<td><input type="radio" name="Nationality" value="India" size="10">India
+<input type="radio" name="Nationality" value="other" size="10">other</td>
+</tr>
+
+<tr>
+<td>Religion</td>
+<td><input type="radio" name="Religion" value="Hindu" size="10">Hindu
+<input type="radio" name="Religion" value="Muslim" size="10">Muslim
+<input type="radio" name="Religion" value="Christian" size="10">Christian
+<input type="radio" name="Religion" value="Jainism" size="10">Jainism
+<input type="radio" name="Religion" value="Buddhism" size="10">Buddhism
+</td>
+</tr>
+
+
+</table>
+
+
+<tr>
+<td colspan=2>
+<left><font size=4><b>Educational Qualification</b></font></left>
+</td>
+</tr>
+
+<table cellpadding="10" width="98%" bgcolor="99FFFF" align="center"
+cellspacing="2">
+
+<tr>
+<td>Qualification</td>
+<td><input type=text name=textnames id="textname" size="30"></td>
+</tr>
+
+<tr>
+<td>Subject</td>
+<td><input type=text name=textnames id="textname" size="30"></td>
+</tr>
+
+
+<tr>
+<td>Name of the Board University</td>
+<td><input type=text name=textnames id="textname" size="30"></td>
+</tr>
+
+<tr>
+<td>Year of Completion</td>
+<td><input type=text name=textnames id="textname" size="30"></td>
+</tr>
+
+<tr>
+<td>Percentage Of Mark</td>
+<td><input type=text name=textnames id="textname" size="30"></td>
+</tr>
+</table>
+
+<tr>
+<td colspan=2>
+<left><font size=4><b>Course Selection</b></font></left>
+</td>
+</tr>
+
+<table cellpadding="10" width="98%" bgcolor="99FFFF" align="center"
+cellspacing="2">
+
+<tr>
+<td>Course</td>
+<td><select name="Course">
+<option value="-1" selected>select..</option>
+<option value="B.Tech">B.TECH</option>
+<option value="MCA">MCA</option>
+<option value="MBA">MBA</option>
+<option value="BCA">BCA</option>
+</select></td>
+</tr>
+
+
+<tr>
+<td><input type="reset"></td>
+<td colspan="2"><input type="submit" value="Submit Form" /></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
